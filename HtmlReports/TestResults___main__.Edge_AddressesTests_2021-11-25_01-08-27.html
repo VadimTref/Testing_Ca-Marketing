@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2021-11-25 01:08:27</p>
+                <p class='attribute'><strong>Duration: </strong>390.52 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 9, Pass: 6, Error: 3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.Edge_AddressesTests</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test1_EdgePos_CheckDeleteAddr</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>***********************************************************
+TEST 1 - SHOW ALL SAVED ADDRESSES AND DELETE IF ARE PRESENT
+***********************************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Saved addresses in the list:
+------------------------------------------------
+List 'My Addresses' is empty, deletion not required
+---------------------------------------------------------
+All addresses is removed or List 'My Addresses' was empty
+TEST1 - PASS
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test2_EdgePos_CreateAddr1</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>***************************************
+TEST 2 - CREATING THE FIRST NEW ADDRESS
+***************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+First new address is created:
+Diana Ashley
+Montgomery, Andrade and Malone
+8730 Raymond Estates, 4497
+Johnstonmouth, Ohio 63700
+United States
+0123456789
+New address with correct values is added.
+TEST 2 PASS
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test3_EdgePos_CreateAddr2Default</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>***********************************************************
+TEST 3 - CREATING THE SECOND NEW ADDRESS AND SET IT DEFAULT
+***********************************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Second new address is created:
+Requiem
+Wolfgang Amadeus Mozart
+0688 515 10 71
+Glocknerstrasse 63, 63
+8045 Hochgreit, Wien
+Austria
+Second new address has attribute:  address-is-default-message
+Second new address is set as Default Address 
+TEST 3 PASS
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test4_EdgePos_UpdateAddr2</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>****************************************
+TEST 4 - UPDATING THE SECOND NEW ADDRESS
+****************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Second new address is updated:
+Der Rauchfangkehrer
+Antonio Salieri
+030 19 40 32
+Leopoldstrabe 77, 55
+14195 Berlin Dahlem
+Germany
+Changing values in second new address is available
+TEST 4 PASS
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test5_EdgePos_DeleteAddr2</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>****************************************
+TEST 5 - DELETING THE SECOND NEW ADDRESS
+****************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Second new address is deleted
+Address removing completed successfully
+TEST 5 PASS
+**********************************************************
+CHECK SAVED ADDRESSES IN THE LIST AND DELETE ALL ADDRESSES
+**********************************************************
+Diana Ashley
+Montgomery, Andrade and Malone
+8730 Raymond Estates, 4497
+Johnstonmouth, Ohio 63700
+United States
+0123456789
+------------------------------------------------
+---------------------------------------------------------
+All addresses is removed or List 'My Addresses' was empty
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test6_EdgeNeg_Fname_numbers</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>*****************************************************************
+TEST 6 - CREATING THE ADDRESS WITH INCORRECT FIRST NAME (NUMBERS)
+*****************************************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Button 'Add Address' works.
+-------------------------------------------------------
+Address with incorrect First name is created:
+0123456789 Barnett
+Chavez, Mack and Diaz
+1124 Burns Creek Suite 674, 3314
+Port Thomas, Michigan 32749
+United States
+0123456789
+-----------------------------
+It's a bug, debugging needed!
+TEST 6 FAIL
+------------------
+Address is deleted
+</p><p style="color:maroon;">Exception: Address with incorrect First name is ADDED. TEST 6 FAIL</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\vladu\PycharmProjects\Reports\helpers.py", line 193, in check_createAddr_incorrect_FirstName
+    wait.until(EC.invisibility_of_element_located((By.XPATH, address_xpath)))
+  File "C:\Users\vladu\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vladu\PycharmProjects\Reports\Unittest_CaMarketing_Addresses_HtmlReport.py", line 860, in test6_EdgeNeg_Fname_numbers
+    H.check_createAddr_incorrect_FirstName(driver, "//address[contains(text(),'0123456789')]", "6", "Edge")
+  File "C:\Users\vladu\PycharmProjects\Reports\helpers.py", line 218, in check_createAddr_incorrect_FirstName
+    raise Exception(f"Address with incorrect First name is ADDED. TEST {test_number} FAIL")
+Exception: Address with incorrect First name is ADDED. TEST 6 FAIL
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test7_EdgeNeg_Fname_spec_char</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>****************************************************************************
+TEST 7 - CREATING THE ADDRESS WITH INCORRECT FIRST NAME (SPECIAL CHARACTERS)
+****************************************************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Button 'Add Address' works.
+-------------------------------------------------------
+Address with incorrect First name is created:
+!@#$%^&*() Young
+Moody PLC
+3878 Jones Villages, 3401
+Alecchester, Virginia 57487
+United States
+0123456789
+-----------------------------
+It's a bug, debugging needed!
+TEST 7 FAIL
+------------------
+Address is deleted
+</p><p style="color:maroon;">Exception: Address with incorrect First name is ADDED. TEST 7 FAIL</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\vladu\PycharmProjects\Reports\helpers.py", line 193, in check_createAddr_incorrect_FirstName
+    wait.until(EC.invisibility_of_element_located((By.XPATH, address_xpath)))
+  File "C:\Users\vladu\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vladu\PycharmProjects\Reports\Unittest_CaMarketing_Addresses_HtmlReport.py", line 899, in test7_EdgeNeg_Fname_spec_char
+    H.check_createAddr_incorrect_FirstName(driver, "//address[contains(text(),'!@#$%^&*()')]", "7", "Edge")
+  File "C:\Users\vladu\PycharmProjects\Reports\helpers.py", line 218, in check_createAddr_incorrect_FirstName
+    raise Exception(f"Address with incorrect First name is ADDED. TEST {test_number} FAIL")
+Exception: Address with incorrect First name is ADDED. TEST 7 FAIL
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test8_EdgeNeg_Fname_empty</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>***************************************************************
+TEST 8 - CREATING THE ADDRESS WITH INCORRECT FIRST NAME (EMPTY)
+***************************************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Button 'Add Address' doesn't work.
+Message Please enter first name appears.
+----------------------------------------------
+Address with incorrect First name is NOT ADDED
+TEST 8 PASS
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test9_EdgeNeg_Fname_lot_of_letter</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>*****************************************************************************
+TEST 9 - CREATING THE ADDRESS WITH INCORRECT FIRST NAME (A LOT OF LETTER 'a')
+*****************************************************************************
+Url has  200  as status Code
+Page has Home | California Marcketing as Page title
+Text LET CALIFORNIA MARKETING GROW YOUR BUSINECS is visible!
+LinkText CALIFORNIA MARCKETING has attribute https://qasvus.wixsite.com/ca-marketing
+Page has My Addresses as Page title
+Button 'Add Address' works.
+-------------------------------------------------------
+Address with incorrect First name is created:
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Gonzalez
+Le PLC
+694 Michael Corners, 6330
+Port Abigailchester, South Carolina 24574
+United States
+0123456789
+-----------------------------
+It's a bug, debugging needed!
+TEST 9 FAIL
+------------------
+Address is deleted
+</p><p style="color:maroon;">Exception: Address with incorrect First name is ADDED. TEST 9 FAIL</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\vladu\PycharmProjects\Reports\helpers.py", line 193, in check_createAddr_incorrect_FirstName
+    wait.until(EC.invisibility_of_element_located((By.XPATH, address_xpath)))
+  File "C:\Users\vladu\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vladu\PycharmProjects\Reports\Unittest_CaMarketing_Addresses_HtmlReport.py", line 978, in test9_EdgeNeg_Fname_lot_of_letter
+    H.check_createAddr_incorrect_FirstName(driver, "//address[contains(text(),"
+  File "C:\Users\vladu\PycharmProjects\Reports\helpers.py", line 218, in check_createAddr_incorrect_FirstName
+    raise Exception(f"Address with incorrect First name is ADDED. TEST {test_number} FAIL")
+Exception: Address with incorrect First name is ADDED. TEST 9 FAIL
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 9, Pass: 6, Error: 3 -- Duration: 390.52 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
